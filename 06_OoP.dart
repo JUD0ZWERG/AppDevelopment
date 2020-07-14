@@ -1,9 +1,11 @@
 main() {
   Essen banane = Essen("Bananig", 4269, "Gelb");
+  Essen toast = Essen("Toastig", 5, "Braun");
   banane.zeigeEigenschaften();
   banane.geschmack = "Apfelig";
   banane.menge = 2;
   banane.zeigeEigenschaften();
+  toast.zeigeEigenschaften();
     
 }
 
